@@ -1,6 +1,6 @@
 const teamMembers = [
     {
-        name: 'Lionel Messi',
+        name: 'Pele',
         position: 'Forward',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball Control',
@@ -8,12 +8,92 @@ const teamMembers = [
         biography: 'Lionel Messi is considered one of the best football players ever.'
     },
     {
-        name: 'Lionel Messi Jr',
-        position: 'Midfielder',
+        name: 'Ronaldo',
+        position: 'Forward',
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball Control',
         weaknesses: 'Heading Ability',
         biography: 'Lionel Messi is considered one of the best football players ever.'
+    },
+    {
+        name: 'Ronaldinho',
+        position: 'Forward',
+        skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
+        strengths: 'Creative skills',
+        weaknesses: 'Lack of dedication',
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+    },
+    {
+        name: 'Neymar',
+        position: 'Forward',
+        skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
+        strengths: 'Creative skills',
+        weaknesses: 'Lack of dedication',
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+    },
+    {
+        name: 'Garrincha',
+        position: 'Forward',
+        skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
+        strengths: 'Creative skills',
+        weaknesses: 'Lack of dedication',
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+    },
+    {
+        name: 'Rivaldo',
+        position: 'Forward',
+        skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
+        strengths: 'Creative skills',
+        weaknesses: 'Lack of dedication',
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+    },
+    {
+        name: 'Romario',
+        position: 'Forward',
+        skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
+        strengths: 'Creative skills',
+        weaknesses: 'Lack of dedication',
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+    },
+    {
+        name: 'Jairzinho',
+        position: 'Forward',
+        skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
+        strengths: 'Creative skills',
+        weaknesses: 'Lack of dedication',
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+    },
+    {
+        name: 'Zico',
+        position: 'Forward',
+        skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
+        strengths: 'Creative skills',
+        weaknesses: 'Lack of dedication',
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+    },
+    {
+        name: 'Kaka',
+        position: 'Forward',
+        skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
+        strengths: 'Creative skills',
+        weaknesses: 'Lack of dedication',
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+    },
+    {
+        name: 'Bebeto',
+        position: 'Forward',
+        skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
+        strengths: 'Creative skills',
+        weaknesses: 'Lack of dedication',
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+    },
+    {
+        name: '',
+        position: 'Forward',
+        skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
+        strengths: 'Creative skills',
+        weaknesses: 'Lack of dedication',
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
     },
 ]
 
