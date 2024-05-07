@@ -25,8 +25,16 @@ function generateTeamCards (){
         card.classList.add('col-md-4')
 
         //styling cards based on position
-        let backgroundColor = 
+        let backgroundColor
 
+        if(member.position === 'Forward'){
+            backgroundColor = '#ffc107'
+        }
+        else if(member.position === 'Midfielder'){
+            backgroundColor = '#088F8F'
+        }
+
+        card.style.backgroundColor = backgroundColor
         //create list of skills with <li> tags
         const skillsList = member.skills.map(skill => `<li> ${skill} </li>`).join('')
             
