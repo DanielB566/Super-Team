@@ -5,7 +5,8 @@ const teamMembers = [
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball Control',
         weaknesses: 'Heading Ability',
-        biography: 'Lionel Messi is considered one of the best football players ever.'
+        biography: 'Lionel Messi is considered one of the best football players ever.',
+        img: 'Imgs/Pele.png'
     },
     {
         name: 'Ronaldo',
@@ -13,7 +14,8 @@ const teamMembers = [
         skills: ['Dribbling', 'Shooting', 'Passing'],
         strengths: 'Ball Control',
         weaknesses: 'Heading Ability',
-        biography: 'Lionel Messi is considered one of the best football players ever.'
+        biography: 'Lionel Messi is considered one of the best football players ever.',
+        img: 'Imgs/ronaldo.png'
     },
     {
         name: 'Ronaldinho',
@@ -21,7 +23,8 @@ const teamMembers = [
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
-        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
+        img: ''
     },
     {
         name: 'Neymar',
@@ -29,7 +32,8 @@ const teamMembers = [
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
-        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
+        img: ''
     },
     {
         name: 'Garrincha',
@@ -37,7 +41,8 @@ const teamMembers = [
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
-        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
+        img: ''
     },
     {
         name: 'Rivaldo',
@@ -45,7 +50,8 @@ const teamMembers = [
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
-        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
+        img: ''
     },
     {
         name: 'Romario',
@@ -53,7 +59,8 @@ const teamMembers = [
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
-        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
+        img: ''
     },
     {
         name: 'Jairzinho',
@@ -61,7 +68,8 @@ const teamMembers = [
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
-        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
+        img: ''
     },
     {
         name: 'Zico',
@@ -69,7 +77,8 @@ const teamMembers = [
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
-        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
+        img: ''
     },
     {
         name: 'Kaka',
@@ -77,7 +86,8 @@ const teamMembers = [
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
-        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
+        img: ''
     },
     {
         name: 'Bebeto',
@@ -85,15 +95,17 @@ const teamMembers = [
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
-        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
+        img: ''
     },
     {
-        name: '',
+        name: 'Luis Fabiano',
         position: 'Forward',
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
-        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.'
+        biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
+        img: ''
     },
 ]
 
@@ -121,9 +133,10 @@ function generateTeamCards (){
        
 
         card.innerHTML = `
-            <div class = "card">
+            <div class = "card h-100">
             <div class = "card-header"> ${member.name}</div>
             <div class = "card-body">
+            <img src=${member.img}><br><br>
                 <p><strong>Position: </strong> ${member.position} </p>
                 <p><strong>Skills: </strong> 
                 <ul>
