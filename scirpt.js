@@ -24,7 +24,7 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: ''
+        img: 'Imgs/ronaldino.png'
     },
     {
         name: 'Neymar',
@@ -33,7 +33,7 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: ''
+        img: 'Imgs/Neymar.png'
     },
     {
         name: 'Garrincha',
@@ -42,7 +42,7 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: ''
+        img: 'Imgs/Garrincha.png'
     },
     {
         name: 'Rivaldo',
@@ -51,7 +51,7 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: ''
+        img: 'Imgs/Rivaldo.png'
     },
     {
         name: 'Romario',
@@ -60,7 +60,7 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: ''
+        img: 'Imgs/Romario.png'
     },
     {
         name: 'Jairzinho',
@@ -69,7 +69,7 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: ''
+        img: 'Imgs/Jairzinho.png'
     },
     {
         name: 'Zico',
@@ -78,7 +78,7 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: ''
+        img: 'Imgs/Zico.png'
     },
     {
         name: 'Kaka',
@@ -87,7 +87,7 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: ''
+        img: 'Imgs/Kaka.png'
     },
     {
         name: 'Bebeto',
@@ -96,7 +96,7 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: ''
+        img: 'Imgs/Bebeto.png'
     },
     {
         name: 'Luis Fabiano',
@@ -105,7 +105,7 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: ''
+        img: 'Imgs/luisfabiano.png'
     },
 ]
 
