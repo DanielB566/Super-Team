@@ -1,5 +1,6 @@
 const teamMembers = [
     {
+        number: '1.',
         name: 'Pele',
         position: 'Forward',
         skills: ['Dribbling', 'Shooting', 'Passing'],
@@ -7,8 +8,10 @@ const teamMembers = [
         weaknesses: 'Heading Ability',
         biography: 'Lionel Messi is considered one of the best football players ever.',
         img: 'Imgs/Pele.png'
+            
     },
     {
+        number: '2.',
         name: 'Ronaldo',
         position: 'Forward',
         skills: ['Dribbling', 'Shooting', 'Passing'],
@@ -18,6 +21,7 @@ const teamMembers = [
         img: 'Imgs/ronaldo.png'
     },
     {
+        number: '3.',
         name: 'Ronaldinho',
         position: 'Forward',
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
@@ -27,6 +31,7 @@ const teamMembers = [
         img: 'Imgs/ronaldino.png'
     },
     {
+        number: '4.',
         name: 'Neymar',
         position: 'Forward',
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
@@ -36,6 +41,7 @@ const teamMembers = [
         img: 'Imgs/Neymar.png'
     },
     {
+        number: '5.',
         name: 'Garrincha',
         position: 'Forward',
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
@@ -45,6 +51,7 @@ const teamMembers = [
         img: 'Imgs/Garrincha.png'
     },
     {
+        number: '6.',
         name: 'Rivaldo',
         position: 'Forward',
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
@@ -54,6 +61,7 @@ const teamMembers = [
         img: 'Imgs/Rivaldo.png'
     },
     {
+        number: '7.',
         name: 'Romario',
         position: 'Forward',
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
@@ -63,6 +71,7 @@ const teamMembers = [
         img: 'Imgs/Romario.png'
     },
     {
+        number: '8.',
         name: 'Jairzinho',
         position: 'Forward',
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
@@ -72,6 +81,7 @@ const teamMembers = [
         img: 'Imgs/Jairzinho.png'
     },
     {
+        number: '9.',
         name: 'Zico',
         position: 'Forward',
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
@@ -81,6 +91,7 @@ const teamMembers = [
         img: 'Imgs/Zico.png'
     },
     {
+        number: '10.',
         name: 'Kaka',
         position: 'Forward',
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
@@ -90,6 +101,7 @@ const teamMembers = [
         img: 'Imgs/Kaka.png'
     },
     {
+        number: '11.',
         name: 'Bebeto',
         position: 'Forward',
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
@@ -99,6 +111,7 @@ const teamMembers = [
         img: 'Imgs/Bebeto.png'
     },
     {
+        number: '12.',
         name: 'Luis Fabiano',
         position: 'Forward',
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
@@ -134,7 +147,9 @@ function generateTeamCards (){
 
         card.innerHTML = `
             <div class = "card h-100">
-            <div class = "card-header"> ${member.name}</div>
+            <div class = "card-header">
+            <h4><b>${member.number}</b> ${member.name} </h4>
+            </div>
             <div class = "card-body">
             <img src=${member.img}><br><br>
                 <p><strong>Position: </strong> ${member.position} </p>

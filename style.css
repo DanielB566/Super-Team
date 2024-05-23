@@ -1,3 +1,10 @@
 .textCenter{
     text-align: center;
 }
+
+header {
+    background-color: #58a6d6;
+    color: White;
+    padding: 20px;
+    text-align: center;
+}
