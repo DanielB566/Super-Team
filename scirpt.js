@@ -7,7 +7,8 @@ const teamMembers = [
         strengths: 'Ball Control',
         weaknesses: 'Heading Ability',
         biography: 'Lionel Messi is considered one of the best football players ever.',
-        img: 'Imgs/Pele.png'
+        img: 'Imgs/Pele.png',
+        goals: 
             
     },
     {
@@ -18,7 +19,8 @@ const teamMembers = [
         strengths: 'Ball Control',
         weaknesses: 'Heading Ability',
         biography: 'Lionel Messi is considered one of the best football players ever.',
-        img: 'Imgs/ronaldo.png'
+        img: 'Imgs/ronaldo.png',
+        goals:
     },
     {
         number: '3.',
@@ -28,7 +30,8 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: 'Imgs/ronaldino.png'
+        img: 'Imgs/ronaldino.png',
+        goals:
     },
     {
         number: '4.',
@@ -38,7 +41,8 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: 'Imgs/Neymar.png'
+        img: 'Imgs/Neymar.png',
+        goals:
     },
     {
         number: '5.',
@@ -48,7 +52,8 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: 'Imgs/Garrincha.png'
+        img: 'Imgs/Garrincha.png',
+        goals:
     },
     {
         number: '6.',
@@ -58,7 +63,8 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: 'Imgs/Rivaldo.png'
+        img: 'Imgs/Rivaldo.png',
+        goals:
     },
     {
         number: '7.',
@@ -68,7 +74,8 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: 'Imgs/Romario.png'
+        img: 'Imgs/Romario.png',
+        goals:
     },
     {
         number: '8.',
@@ -78,7 +85,8 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: 'Imgs/Jairzinho.png'
+        img: 'Imgs/Jairzinho.png',
+        goals:
     },
     {
         number: '9.',
@@ -88,7 +96,8 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: 'Imgs/Zico.png'
+        img: 'Imgs/Zico.png',
+        goals:
     },
     {
         number: '10.',
@@ -98,7 +107,8 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: 'Imgs/Kaka.png'
+        img: 'Imgs/Kaka.png',
+        goals:
     },
     {
         number: '11.',
@@ -108,7 +118,8 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: 'Imgs/Bebeto.png'
+        img: 'Imgs/Bebeto.png',
+        goals:
     },
     {
         number: '12.',
@@ -118,7 +129,8 @@ const teamMembers = [
         strengths: 'Creative skills',
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: 'Imgs/luisfabiano.png'
+        img: 'Imgs/luisfabiano.png',
+        goals:
     },
 ]
 
@@ -132,10 +144,10 @@ function generateTeamCards (){
         //styling cards based on position
         let backgroundColor
 
-        if(member.position === 'Forward'){
+        if(member.goals === ){ //add a number here // 
             backgroundColor = '#ffc107'
         }
-        else if(member.position === 'Midfielder'){
+        else if(member.goals === ){
             backgroundColor = '#088F8F'
         }
 
