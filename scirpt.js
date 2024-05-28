@@ -139,7 +139,7 @@ function generateTeamCards (){
 
     teamMembers.forEach(member => {
         const card = document.createElement('div')
-        card.classList.add('col-md-4')
+        card.classList.add('col-lg-4','col-md-6','p-2')
 
         //styling cards based on position
         let backgroundColor
@@ -162,11 +162,13 @@ function generateTeamCards (){
 
         card.innerHTML = `
             <div class = "card h-100">
-            <div class = "card-header">
+            <div class = "card-header text-center">
             <h4><b>${member.number}</b> ${member.name} </h4>
             </div>
             <div class = "card-body">
-            <img src=${member.img}><br><br>
+            <div class = "text-center">
+            <img src=${member.img} style="width: 250px" class="border border-dark rounded img-fluid"><br><br>
+            </div>
                 <p><strong>Position: </strong> ${member.position} </p>
                 <p><strong>Goals: </strong> ${member.goals} </p>
                 <p><strong>Skills: </strong> 
