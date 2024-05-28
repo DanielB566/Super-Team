@@ -8,7 +8,7 @@ const teamMembers = [
         weaknesses: 'Heading Ability',
         biography: 'Lionel Messi is considered one of the best football players ever.',
         img: 'Imgs/Pele.png',
-        goals: 
+        goals: 77
             
     },
     {
@@ -20,7 +20,7 @@ const teamMembers = [
         weaknesses: 'Heading Ability',
         biography: 'Lionel Messi is considered one of the best football players ever.',
         img: 'Imgs/ronaldo.png',
-        goals:
+        goals: 62
     },
     {
         number: '3.',
@@ -31,7 +31,7 @@ const teamMembers = [
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
         img: 'Imgs/ronaldino.png',
-        goals:
+        goals: 33
     },
     {
         number: '4.',
@@ -42,7 +42,7 @@ const teamMembers = [
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
         img: 'Imgs/Neymar.png',
-        goals:
+        goals: 79
     },
     {
         number: '5.',
@@ -53,7 +53,7 @@ const teamMembers = [
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
         img: 'Imgs/Garrincha.png',
-        goals:
+        goals: 12
     },
     {
         number: '6.',
@@ -64,7 +64,7 @@ const teamMembers = [
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
         img: 'Imgs/Rivaldo.png',
-        goals:
+        goals: 35
     },
     {
         number: '7.',
@@ -75,7 +75,7 @@ const teamMembers = [
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
         img: 'Imgs/Romario.png',
-        goals:
+        goals: 55
     },
     {
         number: '8.',
@@ -86,7 +86,7 @@ const teamMembers = [
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
         img: 'Imgs/Jairzinho.png',
-        goals:
+        goals: 35
     },
     {
         number: '9.',
@@ -97,7 +97,7 @@ const teamMembers = [
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
         img: 'Imgs/Zico.png',
-        goals:
+        goals: 48
     },
     {
         number: '10.',
@@ -108,7 +108,7 @@ const teamMembers = [
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
         img: 'Imgs/Kaka.png',
-        goals:
+        goals: 29
     },
     {
         number: '11.',
@@ -119,7 +119,7 @@ const teamMembers = [
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
         img: 'Imgs/Bebeto.png',
-        goals:
+        goals: 40
     },
     {
         number: '12.',
@@ -130,7 +130,7 @@ const teamMembers = [
         weaknesses: 'Lack of dedication',
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
         img: 'Imgs/luisfabiano.png',
-        goals:
+        goals: 28
     },
 ]
 
@@ -144,11 +144,14 @@ function generateTeamCards (){
         //styling cards based on position
         let backgroundColor
 
-        if(member.goals === ){ //add a number here // 
-            backgroundColor = '#ffc107'
+        if(member.goals >= 10 ){ //add a number here // 
+            backgroundColor = '#'
         }
-        else if(member.goals === ){
-            backgroundColor = '#088F8F'
+        else if(member.goals >= 25 ){
+            backgroundColor = '#'
+        }
+        else if(member.goals >= 40){
+            backgroundColor = '#'
         }
 
         card.style.backgroundColor = backgroundColor
