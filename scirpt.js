@@ -144,14 +144,14 @@ function generateTeamCards (){
         //styling cards based on position
         let backgroundColor
 
-        if(member.goals >= 10 ){ //add a number here // 
-            backgroundColor = '#'
+        if(member.goals >= 10 & member.goals < 25 ){ //add a number here // 
+            backgroundColor = '#CD7F32'
         }
-        else if(member.goals >= 25 ){
-            backgroundColor = '#'
+        else if(member.goals >= 25 & member.goals < 40 ){
+            backgroundColor = '#C0C0C0'
         }
         else if(member.goals >= 40){
-            backgroundColor = '#'
+            backgroundColor = '#FFD700'
         }
 
         card.style.backgroundColor = backgroundColor
@@ -168,6 +168,7 @@ function generateTeamCards (){
             <div class = "card-body">
             <img src=${member.img}><br><br>
                 <p><strong>Position: </strong> ${member.position} </p>
+                <p><strong>Goals: </strong> ${member.goals} </p>
                 <p><strong>Skills: </strong> 
                 <ul>
                     ${skillsList}
