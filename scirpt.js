@@ -6,7 +6,7 @@ const teamMembers = [
         skills: ['Dribbling', 'Shooting', 'Speed'],
         strengths: 'Ball Control',
         biography: 'Pelé was a legendary Brazilian footballer and three-time World Cup champion.',
-        img: 'Imgs/Pele.png',
+        img: '/Imgs/Pele.png',
         goals: 77
             
     },
