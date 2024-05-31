@@ -12,3 +12,31 @@ header {
 .card-margin {
     margin-right: 5px;
 }
+
+/*footer hover/footerstyle */
+.footerhover:hover{
+    animation: bounce .3s infinite alternate;
+    
+}
+
+@keyframes bounce {
+    to { transform: scale(1.2); }
+  }
+
+  .footerstyle{
+    bottom: 0;
+  }
+/*footer hover  */
+
+.footerbtn {
+    background-color: ;
+    border-color: white;
+    color: white;
+    font-style: bold;
+
+}
+
+.footerbtn:hover {
+    background-color: blue;
+    border-color: white;
+}
