@@ -6,7 +6,7 @@ const teamMembers = [
         skills: ['Dribbling', 'Shooting', 'Speed'],
         strengths: 'Ball Control',
         biography: 'Pelé was a legendary Brazilian footballer and three-time World Cup champion.',
-        img: '/Imgs/Pele.png',
+        img: '/imgs/Pele.png',
         goals: 77
             
     },
@@ -17,7 +17,7 @@ const teamMembers = [
         skills: ['Skills', 'Shooting', 'Pace'],
         strengths: 'Shooting',
         biography: 'Ronaldo Nazário, also known as "R9," was a Brazilian footballer renowned for his incredible goal-scoring ability and two-time Ballondor wins.',
-        img: 'Imgs/ronaldo.png',
+        img: '/imgs/ronaldo.png',
         goals: 62
     },
     {
@@ -26,7 +26,7 @@ const teamMembers = [
         position: 'Forward',
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
         biography: 'Ronaldinho, the Brazilian football magician, mesmerized the world with his extraordinary skill, and flair on the pitch.',
-        img: 'Imgs/ronaldino.png',
+        img: '/imgs/ronaldino.png',
         goals: 33
     },
     {
@@ -36,7 +36,7 @@ const teamMembers = [
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
         strengths: 'Creative skills',
         biography: 'Neymar is a Brazilian footballer known for his dazzling dribbling, scoring prowess, and multiple major club and international titles.',
-        img: 'Imgs/Neymar.png',
+        img: '/imgs/Neymar.png',
         goals: 79
     },
     {
@@ -46,7 +46,7 @@ const teamMembers = [
         skills: ['Dribbling', 'Skills', 'Creating goal opportunitys'],
         strengths: 'Agility',
         biography: 'Garrincha was a Brazilian footballer famed for his extraordinary dribbling skills and key role in Brazils World Cup victories.',
-        img: 'Imgs/Garrincha.png',
+        img: '/imgs/Garrincha.png',
         goals: 12
     },
     {
@@ -56,7 +56,7 @@ const teamMembers = [
         skills: ['Dribbling', 'Skills', 'Speed'],
         strengths: 'Shooting',
         biography: 'Rivaldo is a Brazilian footballer renowned for his creativity, powerful shots, and winning the 1999 Ballondor',
-        img: 'Imgs/Rivaldo.png',
+        img: '/imgs/Rivaldo.png',
         goals: 35
     },
     {
@@ -66,7 +66,7 @@ const teamMembers = [
         skills: ['Dribbling', 'Skills', 'Long Shots'],
         strengths: 'Creating goal scoring oppurtunitys',
         biography: 'Romário is a Brazilian footballer known for his prolific goal-scoring and pivotal role in Brazils 1994 World Cup victory.',
-        img: 'Imgs/Romario.png',
+        img: '/imgs/Romario.png',
         goals: 55
     },
     {
@@ -76,7 +76,7 @@ const teamMembers = [
         skills: ['Dribbling', 'Skills', 'Pace'],
         strengths: 'Creative skills',
         biography: 'Jairzinho is a Brazilian footballer celebrated for his outstanding performances and goals in the 1970 World Cup.',
-        img: 'Imgs/Jairzinho.png',
+        img: '/imgs/Jairzinho.png',
         goals: 35
     },
     {
@@ -86,7 +86,7 @@ const teamMembers = [
         skills: ['Shooting', 'Skills', 'Creating goal opportunitys'],
         strengths: 'Free kicking',
         biography: 'Zico is a Brazilian footballer renowned for his playmaking brilliance and free-kick mastery.',
-        img: 'Imgs/Zico.png',
+        img: '/imgs/Zico.png',
         goals: 48
     },
     {
@@ -96,7 +96,7 @@ const teamMembers = [
         skills: ['Dribbling', 'Skills', 'Speed'],
         strengths: 'Creating goal scoring oppurtunitys',
         biography: 'Kaká is a Brazilian footballer known for his elegant playmaking and winning the 2007 Ballondor.',
-        img: 'Imgs/Kaka.png',
+        img: '/imgs/Kaka.png',
         goals: 29
     },
     {
@@ -106,7 +106,7 @@ const teamMembers = [
         skills: ['Dribbling', 'Shooting', 'Agility'],
         strengths: 'Goal-scoring ability',
         biography: 'Bebeto is a Brazilian footballer known for his crucial goals and celebrations in Brazils 1994 World Cup victory.',
-        img: 'Imgs/Bebeto.png',
+        img: '/imgs/Bebeto.png',
         goals: 40
     },
     {
@@ -116,7 +116,7 @@ const teamMembers = [
         skills: ['Dribbling', 'Shooting', 'Creating goal opportunitys'],
         strengths: 'Creative skills',
         biography: 'Luís Fabiano is a Brazilian footballer known for his goal-scoring prowess and successful stints with Sevilla and the Brazilian national team.',
-        img: 'Imgs/luisfabiano.png',
+        img: '/imgs/luisfabiano.png',
         goals: 28
     },
 ]
